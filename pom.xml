@@ -27,13 +27,13 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
+            <id>nexus</id>
+            <name>studentid-release nexus repository</name>
             <url>http://3.7.248.57:8081/repository/studentid-release/ </url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
+            <id>nexus</id>
+            <name>studentid-snapshot nexus repository</name>
             <url>http://3.7.248.57:8081/repository/studentid-snapshot/ </url>
         </snapshotRepository>
     </distributionManagement>
